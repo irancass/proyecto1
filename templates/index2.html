@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INFORMACION DE TODO EL SISTEMA</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+    <h1>INFORMACION DE TODO EL SISTEMA</h1>
+    <h2>Tu IP address es: {{ ip }}</h2>
+
+    <div class="contenedor-index2">
+        <h3>Sistema</h3><p>{{ sistema }}</p>
+        <h3>Versión de Python</h3><p>{{ version }}</p>
+        <h3>Fecha y hora</h3><p>{{ fecha_hora }}</p>
+        <h3>Usuario</h3><p>{{ usuario }}</p>
+        <h3>Ruta de ejecución</h3><p>{{ ruta }}</p>
+    </div>
+</body>
+</html>
+
