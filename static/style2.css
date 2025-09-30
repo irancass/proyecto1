@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9fcff;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #004080;
+}
+
+h2 {
+    text-align: center;
+    color: #0066cc;
+}
+
+.contenedor-index2 {
+    width: 60%;
+    
+}
+
+.contenedor-index2 h3 {
+    color: #004080;
+   
+}
+
+.contenedor-index2 p {
+    font-size: 1.1em;
+    color: #444;
+}
